@@ -39,3 +39,19 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+#side-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px; /* Largura da imagem */
+    background-color: #f2f2f2; /* Cor de fundo do contêiner (opcional) */
+    padding: 20px; /* Espaçamento interno do contêiner (opcional) */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+#side-image img {
+    max-width: 100%;
+    height: auto;
+}
